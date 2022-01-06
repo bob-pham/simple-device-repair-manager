@@ -1,4 +1,4 @@
-package main.devices;
+package devices;
 
 import org.json.JSONObject;
 

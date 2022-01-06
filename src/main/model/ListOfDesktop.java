@@ -1,6 +1,6 @@
-package main.model;
+package model;
 
-import main.devices.Desktop;
+import devices.Desktop;
 import org.json.JSONArray;
 import org.json.JSONObject;
 

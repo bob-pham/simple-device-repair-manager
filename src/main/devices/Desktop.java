@@ -1,7 +1,8 @@
-package main.devices;
+package devices;
 
 import java.util.LinkedList;
 import java.util.List;
+
 
 public class Desktop extends Computer {
 

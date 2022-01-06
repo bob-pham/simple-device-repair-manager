@@ -1,0 +1,22 @@
+{
+    "Phone num": 5,
+    "Desktop codes": [],
+    "Laptop num": 9,
+    "Phone codes": [],
+    "Laptop codes": [],
+    "Devices": {
+        "Phones": {
+            "repaired Phones": [],
+            "wip Phones": []
+        },
+        "Laptops": {
+            "wip Laptops": [],
+            "repaired Laptops": []
+        },
+        "Desktops": {
+            "repaired Desktops": [],
+            "wip Desktops": []
+        }
+    },
+    "Desktop num": 7
+}

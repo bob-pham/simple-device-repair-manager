@@ -1,11 +1,11 @@
-package main.persistence;
+package persistence;
 
-import main.devices.Desktop;
-import main.devices.Laptop;
-import main.devices.Phone;
-import main.model.ListOfDesktop;
-import main.model.ListOfLaptop;
-import main.model.ListOfPhone;
+import devices.Desktop;
+import devices.Laptop;
+import devices.Phone;
+import model.ListOfDesktop;
+import model.ListOfLaptop;
+import model.ListOfPhone;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
@@ -71,6 +71,7 @@ public class JsonWriter {
         for (int num : nums) {
             codes.put(num);
         }
+
         return codes;
     }
 }

@@ -1,0 +1,102 @@
+{
+    "Phone num": 8,
+    "Desktop codes": [],
+    "Laptop num": 12,
+    "Phone codes": [],
+    "Laptop codes": [],
+    "Devices": {
+        "Phones": {
+            "repaired Phones": [{
+                "code": 8,
+                "notes": "N/A",
+                "bat": false,
+                "screen": 0,
+                "power": false,
+                "storage": 0,
+                "repair progress": 0,
+                "brand": "N/A",
+                "user": "Bob"
+            }],
+            "wip Phones": [{
+                "code": 7,
+                "notes": "N/A",
+                "bat": false,
+                "screen": 0,
+                "power": false,
+                "storage": 0,
+                "repair progress": 0,
+                "brand": "N/A",
+                "user": "Bob"
+            }]
+        },
+        "Laptops": {
+            "wip Laptops": [{
+                "code": 11,
+                "notes": "N/A",
+                "os": "N/A",
+                "ssd": 0,
+                "hdc": false,
+                "hdd": 0,
+                "cpu": "N/A",
+                "screen": 0,
+                "gpu": "N/A",
+                "bat": false,
+                "power": false,
+                "repair progress": 0,
+                "brand": "N/A",
+                "user": "Bob",
+                "ram": 0
+            }],
+            "repaired Laptops": [{
+                "code": 12,
+                "notes": "N/A",
+                "os": "N/A",
+                "ssd": 0,
+                "hdc": false,
+                "hdd": 0,
+                "cpu": "N/A",
+                "screen": 0,
+                "gpu": "N/A",
+                "bat": false,
+                "power": false,
+                "repair progress": 0,
+                "brand": "N/A",
+                "user": "Bob",
+                "ram": 0
+            }]
+        },
+        "Desktops": {
+            "repaired Desktops": [{
+                "code": 10,
+                "notes": "N/A",
+                "os": "N/A",
+                "ssd": 0,
+                "hdc": false,
+                "hdd": 0,
+                "cpu": "N/A",
+                "gpu": "N/A",
+                "power": false,
+                "repair progress": 0,
+                "brand": "N/A",
+                "user": "Bob",
+                "ram": 0
+            }],
+            "wip Desktops": [{
+                "code": 9,
+                "notes": "N/A",
+                "os": "N/A",
+                "ssd": 0,
+                "hdc": false,
+                "hdd": 0,
+                "cpu": "N/A",
+                "gpu": "N/A",
+                "power": false,
+                "repair progress": 0,
+                "brand": "N/A",
+                "user": "Bob",
+                "ram": 0
+            }]
+        }
+    },
+    "Desktop num": 10
+}

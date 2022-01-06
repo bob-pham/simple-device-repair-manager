@@ -1,0 +1,62 @@
+{
+    "Phone num": 6,
+    "Desktop codes": [],
+    "Laptop num": 10,
+    "Phone codes": [],
+    "Laptop codes": [],
+    "Devices": {
+        "Phones": {
+            "repaired Phones": [{
+                "code": 6,
+                "notes": "N/A",
+                "bat": false,
+                "screen": 0,
+                "power": false,
+                "storage": 0,
+                "repair progress": 0,
+                "brand": "N/A",
+                "user": "Bob"
+            }],
+            "wip Phones": []
+        },
+        "Laptops": {
+            "wip Laptops": [],
+            "repaired Laptops": [{
+                "code": 10,
+                "notes": "N/A",
+                "os": "N/A",
+                "ssd": 0,
+                "hdc": false,
+                "hdd": 0,
+                "cpu": "N/A",
+                "screen": 0,
+                "gpu": "N/A",
+                "bat": false,
+                "power": false,
+                "repair progress": 0,
+                "brand": "N/A",
+                "user": "Bob",
+                "ram": 0
+            }]
+        },
+        "Desktops": {
+            "repaired Desktops": [{
+                "code": 8,
+                "notes": "N/A",
+                "os": "N/A",
+                "ssd": 0,
+                "hdc": false,
+                "hdd": 0,
+                "cpu": "N/A",
+                "gpu": "N/A",
+                "power": false,
+                "repair progress": 0,
+                "brand": "N/A",
+                "user": "Bob",
+                "ram": 0
+            }],
+            "wip Desktops": []
+        }
+    },
+    "Desktop num": 8
+}

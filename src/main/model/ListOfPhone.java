@@ -1,6 +1,6 @@
-package main.model;
+package model;
 
-import main.devices.Phone;
+import devices.Phone;
 import org.json.JSONArray;
 import org.json.JSONObject;
 

@@ -1,11 +1,11 @@
 package persistence;
 
-import main.devices.Desktop;
-import main.devices.Laptop;
-import main.devices.Phone;
-import main.model.ListOfDesktop;
-import main.model.ListOfLaptop;
-import main.model.ListOfPhone;
+import devices.Desktop;
+import devices.Laptop;
+import devices.Phone;
+import model.ListOfDesktop;
+import model.ListOfLaptop;
+import model.ListOfPhone;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
@@ -80,7 +80,7 @@ public class JsonReader {
         return contentBuilder.toString();
     }
 
-    //EFFECTS: parses an LinkedList of ints that represent oldCodes from source and returns it
+    //EFFECTS: parses an LinkedList of int that represent oldCodes from source and returns it
     private List<Integer> getOldCodes(JSONArray oldCodes) {
         List<Integer> codes = new LinkedList<>();
 
@@ -116,18 +116,18 @@ public class JsonReader {
     private Desktop constructDesktop(JSONObject desktop) {
         Desktop newDesktop = new Desktop(desktop.getString("user"));
 
-//        newDesktop.setServiceNum(desktop.getInt("code"));
-//        newDesktop.setRepairProgress(desktop.getInt("repair progress"));
-//        newDesktop.setBrand(desktop.getString("brand"));
-//        newDesktop.setPower(desktop.getBoolean("power"));
-//        newDesktop.setOtherNotes(desktop.getString("notes"));
-//        newDesktop.setHardDrive(desktop.getInt("hdd"));
-//        newDesktop.setSolidState(desktop.getInt("ssd"));
-//        newDesktop.setHardDriveCaddy(desktop.getBoolean("hdc"));
-//        newDesktop.setRam(desktop.getInt("ram"));
-//        newDesktop.setCpu(desktop.getString("cpu"));
-//        newDesktop.setGpu(desktop.getString("gpu"));
-//        newDesktop.setOS(desktop.getString("os"));
+        newDesktop.setServiceNum(desktop.getInt("code"));
+        newDesktop.setRepairProgress(desktop.getInt("repair progress"));
+        newDesktop.setBrand(desktop.getString("brand"));
+        newDesktop.setPower(desktop.getBoolean("power"));
+        newDesktop.setOtherNotes(desktop.getString("notes"));
+        newDesktop.setHardDrive(desktop.getInt("hdd"));
+        newDesktop.setSolidState(desktop.getInt("ssd"));
+        newDesktop.setHardDriveCaddy(desktop.getBoolean("hdc"));
+        newDesktop.setRam(desktop.getInt("ram"));
+        newDesktop.setCpu(desktop.getString("cpu"));
+        newDesktop.setGpu(desktop.getString("gpu"));
+        newDesktop.setOS(desktop.getString("os"));
 
         return newDesktop;
     }
@@ -160,21 +160,21 @@ public class JsonReader {
     // EFFECTS: constructs a Laptop from JSON object
     private Laptop constructLaptop(JSONObject laptop) {
         Laptop newLaptop = new Laptop(laptop.getString("user"));
-//
-//        newLaptop.setServiceNum(laptop.getInt("code"));
-//        newLaptop.setRepairProgress(laptop.getInt("repair progress"));
-//        newLaptop.setBrand(laptop.getString("brand"));
-//        newLaptop.setPower(laptop.getBoolean("power"));
-//        newLaptop.setOtherNotes(laptop.getString("notes"));
-//        newLaptop.setHardDrive(laptop.getInt("hdd"));
-//        newLaptop.setSolidState(laptop.getInt("ssd"));
-//        newLaptop.setHardDriveCaddy(laptop.getBoolean("hdc"));
-//        newLaptop.setRam(laptop.getInt("ram"));
-//        newLaptop.setCpu(laptop.getString("cpu"));
-//        newLaptop.setGpu(laptop.getString("gpu"));
-//        newLaptop.setOS(laptop.getString("os"));
-//        newLaptop.setScreenCondition(laptop.getInt("screen"));
-//        newLaptop.setBattery(laptop.getBoolean("bat"));
+
+        newLaptop.setServiceNum(laptop.getInt("code"));
+        newLaptop.setRepairProgress(laptop.getInt("repair progress"));
+        newLaptop.setBrand(laptop.getString("brand"));
+        newLaptop.setPower(laptop.getBoolean("power"));
+        newLaptop.setOtherNotes(laptop.getString("notes"));
+        newLaptop.setHardDrive(laptop.getInt("hdd"));
+        newLaptop.setSolidState(laptop.getInt("ssd"));
+        newLaptop.setHardDriveCaddy(laptop.getBoolean("hdc"));
+        newLaptop.setRam(laptop.getInt("ram"));
+        newLaptop.setCpu(laptop.getString("cpu"));
+        newLaptop.setGpu(laptop.getString("gpu"));
+        newLaptop.setOS(laptop.getString("os"));
+        newLaptop.setScreenCondition(laptop.getInt("screen"));
+        newLaptop.setBattery(laptop.getBoolean("bat"));
 
         return newLaptop;
     }
@@ -207,15 +207,15 @@ public class JsonReader {
     // EFFECTS: constructs a Phone from JSON object
     private Phone constructPhone(JSONObject phone) {
         Phone newPhone = new Phone(phone.getString("user"));
-//
-//        newPhone.setServiceNum(phone.getInt("code"));
-//        newPhone.setRepairProgress(phone.getInt("repair progress"));
-//        newPhone.setBrand(phone.getString("brand"));
-//        newPhone.setPower(phone.getBoolean("power"));
-//        newPhone.setOtherNotes(phone.getString("notes"));
-//        newPhone.setScreenCondition(phone.getInt("screen"));
-//        newPhone.setBattery(phone.getBoolean("bat"));
-//        newPhone.setStorage(phone.getInt("storage"));
+
+        newPhone.setServiceNum(phone.getInt("code"));
+        newPhone.setRepairProgress(phone.getInt("repair progress"));
+        newPhone.setBrand(phone.getString("brand"));
+        newPhone.setPower(phone.getBoolean("power"));
+        newPhone.setOtherNotes(phone.getString("notes"));
+        newPhone.setScreenCondition(phone.getInt("screen"));
+        newPhone.setBattery(phone.getBoolean("bat"));
+        newPhone.setStorage(phone.getInt("storage"));
 
         return newPhone;
     }

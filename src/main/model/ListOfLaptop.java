@@ -1,6 +1,6 @@
-package main.model;
+package model;
 
-import main.devices.Laptop;
+import devices.Laptop;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
