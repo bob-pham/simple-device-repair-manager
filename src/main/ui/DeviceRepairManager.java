@@ -162,10 +162,12 @@ public class DeviceRepairManager extends JFrame implements ActionListener {
     //EFFECTS: loads the default computer image
     private void loadMenuImage() {
         try {
-            BufferedImage myPic = ImageIO.read(new File("data/computerDevArt.png"));
-            JLabel picture = new JLabel(new ImageIcon(myPic));
+            BufferedImage myPic = ImageIO.read(new File("data/title_computer.png"));
+            Image newImage = myPic.getScaledInstance(550,550,Image.SCALE_DEFAULT);
+            JLabel picture = new JLabel(new ImageIcon(newImage));
             picture.setBounds(190, 70, getWidth() / 2, getHeight() / 2);
             menuPanel.add(picture);
+            setIconImage(newImage);
         } catch (IOException e) {
             e.printStackTrace();
         }

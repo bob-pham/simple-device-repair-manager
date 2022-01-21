@@ -27,8 +27,9 @@ public class ProcessPhone extends ProcessDevice implements ActionListener {
         buttonsPanel.setBackground(DeviceRepairManager.BACKGROUND_COLOR);
         constructButtons();
         try {
-            BufferedImage pic = ImageIO.read(new File("data/devArtPhone.png"));
-            phonePic = new JLabel(new ImageIcon(pic));
+            BufferedImage pic = ImageIO.read(new File("data/phone.png"));
+            Image phonePicSize = pic.getScaledInstance(500,450,Image.SCALE_DEFAULT);
+            phonePic = new JLabel(new ImageIcon(phonePicSize));
         } catch (IOException io) {
             // do nothing
         }

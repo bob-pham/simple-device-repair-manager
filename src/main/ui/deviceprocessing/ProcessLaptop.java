@@ -26,8 +26,9 @@ public class ProcessLaptop extends ProcessComputer implements ActionListener {
         buttonsPanel.setBackground(DeviceRepairManager.BACKGROUND_COLOR);
         constructButtons();
         try {
-            BufferedImage pic = ImageIO.read(new File("data/devArtLaptop.png"));
-            laptopPic = new JLabel(new ImageIcon(pic));
+            BufferedImage pic = ImageIO.read(new File("data/laptop.png"));
+            Image scaledLaptop = pic.getScaledInstance(450,400,Image.SCALE_DEFAULT);
+            laptopPic = new JLabel(new ImageIcon(scaledLaptop));
         } catch (IOException io) {
             // do nothing
         }

@@ -67,8 +67,8 @@ public class HomeScreen extends Menu implements ActionListener {
         JPanel panel = new JPanel(new GridLayout(0, 1, 100, 50));
 
         try {
-            BufferedImage myPic = ImageIO.read(new File("data/devArtHome.png"));
-            Image image = myPic.getScaledInstance(400, 150, Image.SCALE_DEFAULT);
+            BufferedImage myPic = ImageIO.read(new File("data/title_computer.png"));
+            Image image = myPic.getScaledInstance(250, 250, Image.SCALE_DEFAULT);
             JLabel picture = new JLabel(new ImageIcon(image));
             picture.setBounds(150, 25, 400, 150);
             parent.add(picture);
