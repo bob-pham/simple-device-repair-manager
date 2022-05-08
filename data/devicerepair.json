@@ -1,0 +1,131 @@
+{
+    "Phone num": 1,
+    "Desktop codes": [],
+    "Laptop num": 5,
+    "Phone codes": [],
+    "Laptop codes": [],
+    "Devices": {
+        "Phones": {
+            "repaired Phones": [],
+            "wip Phones": [{
+                "code": 1,
+                "notes": "N/A",
+                "bat": false,
+                "screen": 0,
+                "power": false,
+                "storage": 0,
+                "repair progress": 0,
+                "brand": "N/A",
+                "user": "Bob"
+            }]
+        },
+        "Laptops": {
+            "wip Laptops": [
+                {
+                    "code": 1,
+                    "notes": "N/A",
+                    "os": "N/A",
+                    "ssd": 0,
+                    "hdc": false,
+                    "hdd": 0,
+                    "cpu": "N/A",
+                    "screen": 0,
+                    "gpu": "N/A",
+                    "bat": false,
+                    "power": false,
+                    "repair progress": 0,
+                    "brand": "N/A",
+                    "user": "Bob",
+                    "ram": 0
+                },
+                {
+                    "code": 2,
+                    "notes": "N/A",
+                    "os": "N/A",
+                    "ssd": 0,
+                    "hdc": false,
+                    "hdd": 0,
+                    "cpu": "N/A",
+                    "screen": 0,
+                    "gpu": "N/A",
+                    "bat": false,
+                    "power": false,
+                    "repair progress": 0,
+                    "brand": "N/A",
+                    "user": "Bob",
+                    "ram": 0
+                },
+                {
+                    "code": 3,
+                    "notes": "N/A",
+                    "os": "N/A",
+                    "ssd": 0,
+                    "hdc": false,
+                    "hdd": 0,
+                    "cpu": "N/A",
+                    "screen": 0,
+                    "gpu": "N/A",
+                    "bat": false,
+                    "power": false,
+                    "repair progress": 0,
+                    "brand": "N/A",
+                    "user": "Bob",
+                    "ram": 0
+                },
+                {
+                    "code": 4,
+                    "notes": "N/A",
+                    "os": "N/A",
+                    "ssd": 0,
+                    "hdc": false,
+                    "hdd": 0,
+                    "cpu": "N/A",
+                    "screen": 0,
+                    "gpu": "N/A",
+                    "bat": false,
+                    "power": false,
+                    "repair progress": 0,
+                    "brand": "Dell",
+                    "user": "Bob",
+                    "ram": 0
+                }
+            ],
+            "repaired Laptops": [{
+                "code": 5,
+                "notes": "N/A",
+                "os": "N/A",
+                "ssd": 0,
+                "hdc": false,
+                "hdd": 0,
+                "cpu": "N/A",
+                "screen": 0,
+                "gpu": "N/A",
+                "bat": false,
+                "power": false,
+                "repair progress": 4,
+                "brand": "Dell",
+                "user": "Bob",
+                "ram": 0
+            }]
+        },
+        "Desktops": {
+            "repaired Desktops": [{
+                "code": 1,
+                "notes": "Works fine",
+                "os": "N/A",
+                "ssd": 0,
+                "hdc": false,
+                "hdd": 0,
+                "cpu": "N/A",
+                "gpu": "N/A",
+                "power": true,
+                "repair progress": 4,
+                "brand": "Dell",
+                "user": "Bob",
+                "ram": 1000
+            }],
+            "wip Desktops": []
+        }
+    },
+    "Desktop num": 1
+}

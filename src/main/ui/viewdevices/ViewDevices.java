@@ -391,10 +391,10 @@ public class ViewDevices extends Menu implements ActionListener {
                 deviceTable = new JScrollPane(new JTable(makePhoneTable(deviceRepair.getPhones().getWipPhones())));
                 parentSetUp();
                 break;
-            case "Delete":
+            case "Delete Device":
                 deleteTree();
                 break;
-            case "Search":
+            case "Search Devices":
                 searchDevice();
                 break;
             case "Exit":
